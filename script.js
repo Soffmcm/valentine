@@ -8,12 +8,12 @@ function nextSlide() {
 
 function wrongAnswer() {
   document.getElementById("errorText").innerText =
-    "❌ Incorrect. Try again.";
+    "Incorrect. Try again.";
 }
 
 function no() {
   document.getElementById("noText").innerText =
-    "Error! Try again 😈";
+    "Error! Try again.";
 }
 
 function yes() {
