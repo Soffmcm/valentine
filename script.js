@@ -18,7 +18,9 @@ function no() {
 
 function yes() {
   document.getElementById(`slide${current}`).classList.remove("active");
-  current = 5;
-  document.getElementById("slide5").classList.add("active");
-  document.getElementById("yippee").play();
+  current = 6;
+  document.getElementById("slide6").classList.add("active");
+  
+  const video = document.getElementById("yippieVideo");
+  video.play();
 }
